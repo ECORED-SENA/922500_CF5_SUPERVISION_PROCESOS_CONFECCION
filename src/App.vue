@@ -27,5 +27,13 @@ export default {
   },
 }
 </script>
-
-<style lang="sass"></style>
+<style lang="sass">
+.titulo-principal__numero
+  background-color: #ea526f
+.titulo-segundo:after
+  border-left-color: #ea526f !important
+.banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6, .banner-principal p
+  color: #000 !important
+.titulo-principal__numero span
+  color: #fff !important
+</style>
