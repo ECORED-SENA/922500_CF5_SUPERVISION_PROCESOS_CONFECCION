@@ -4,17 +4,17 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
+        .tarjeta.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/emparejamiento.svg", alt="Imagen decorativa")
+            img(src="@/assets/template/arrastrar.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 1
-        p.mb-4 Cras tempus tortor et nisi tincidunt feugiat. Integer lacus ante, venenatis nec fringilla quis, dapibus ut dui. Fusce imperdiet velit a leo sagittis, id scelerisque massa placerat. Duis at dui sed enim euismod pulvinar quis ac ante. Phasellus condimentum sapien nisi, ac facilisis purus tristique ac. Quisque magna est, luctus vitae elit ut, convallis venenatis justo. Nunc pretium elit a nisi tempus sagittis.
+          h2 Haciendo trazos
+        p.mb-4 Explicar los conceptos fundamentales para determinar el presupuesto de las materias primas, costos y recursos necesarios en la producción de prendas.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Descripción de la actividad didáctica.
+              p.fw-bold.mb-0 Completar espacios
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
